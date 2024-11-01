@@ -1,6 +1,6 @@
 #Partition Finder
 ##partitionfinder v. 2.1.1 was run with python v.2.7, on alignment files saved with extension .phy
-python /path/to/partitionfinder-2.1.1/PartitionFinder.py /path/to/folder/file_alignement/
+python /path/to/partitionfinder-2.1.1/PartitionFinder.py /path/to/folder/alignment_files/
 
 ##Settings
 ## ALIGNMENT FILE ##
