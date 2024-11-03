@@ -1,0 +1,30 @@
+Checklist	ERC000011	ENA default sample checklist						
+tax_id	scientific_name	sample_alias	sample_title	sample_description	lat_lon	collection date	geographic location (country and/or sea)	geographic location (region and locality)
+#units	 	 	 	 	 	 	 	 
+61971	 Huso huso	PA-1	PA-1	maxillare	"44.607289, 22.000911"	2021	Serbia	"Padina, Iron Gates, Eastern Serbia"
+7906	 Acipenser ruthenus	PA-4	PA-4	pinna pectoralis	"44.607289, 22.000911"	2021	Serbia	"Padina, Iron Gates, Eastern Serbia"
+7903	 Acipenser stellatus	PA-6	PA-6	parasphenoideum	"44.607289, 22.000911"	2021	Serbia	"Padina, Iron Gates, Eastern Serbia"
+61971	 Huso huso	PA-11	PA-11	indet.	"44.607289, 22.000911"	2021	Serbia	"Padina, Iron Gates, Eastern Serbia"
+61967	Acipenser nudiventris	PA-16	PA-16	pinna pectoralis	"44.607289, 22.000911"	2021	Serbia	"Padina, Iron Gates, Eastern Serbia"
+61971	 Huso huso	LV-17	LV-17	maxillare	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+61971	 Huso huso	LV-19	LV-19	indet.	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+61971	 Huso huso	LV-22	LV-22	indet.	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+61971	Huso huso	LV-24	LV-24	dentale	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+7902	Acipenser gueldenstaedtii	LV-28	LV-28	dentale	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+7906	 Acipenser ruthenus	LV-29	LV-29	parasphenoideum	"44.553086, 22.027319"	2021	Serbia	"Lepenski Vir, Iron Gates, Eastern Serbia"
+61971	Huso huso	KU-32	K-32	cranial	"44.361372, 22.498453"	2021	Serbia	"Kula, Bor District, Eastern Serbia"
+7903	Acipenser stellatus	KU-34	KU-34	pinna pectoralis	"44.361372, 22.498453"	2021	Serbia	"Kula, Bor District, Eastern Serbia"
+61967	Acipenser nudiventris	KU-35	KU-35	palatopterygoideum	"44.361372, 22.498453"	2021	Serbia	"Kula, Bor District, Eastern Serbia"
+61967	Acipenser nudiventris	DB-38	DB-38	pinna pectoralis	"45.452300, 19.217136"	2021	Serbia	"Donja Branjevina, Ba_ka, Vojvodina"
+7903	 Acipenser stellatus	DB-39	DB-39	cleithrum	"45.452300, 19.217136"	2021	Serbia	"Donja Branjevina, Ba_ka, Vojvodina"
+61971	Huso huso	VM-43	VM-43	palatopterygoideum	"44.740542, 21.219275"	2021	Serbia	"Viminacium, Brani_evo District, Eastern Serbia"
+61971	Huso huso	VM-44	VM-44	hyomandibulare	"44.740542, 21.219275"	2021	Serbia	"Viminacium, Brani_evo District, Eastern Serbia"
+61971	Huso huso	DK-47	DK-47	parasphenoideum	"44.653903, 22.544536"	2021	Serbia	"Diana-Karata_, Bor District, Eastern Serbia"
+61967	 Acipenser nudiventris	DK-49	DK-49	pinna pectoralis	"44.653903, 22.544536"	2021	Serbia	"Diana-Karata_, Bor District, Eastern Serbia"
+7902	 Acipenser gueldenstaedtii	DP-52	DP-52	cranial dermal plate	"44.924022, 21.270925"	2021	Serbia	"Dupljaja-Grad, Banat, Vojvodina"
+7902	 Acipenser gueldenstaedtii	DP-53	DP-53	parietale	"44.924022, 21.270925"	2021	Serbia	"Dupljaja-Grad, Banat, Vojvodina"
+61971	 Huso huso	ST-54	ST-54	parasphenoideum	"43.486656, 20.531561"	2021	Serbia	"Studenica, Ra_ka District, Central Serbia"
+61971	Huso huso	ST-55	ST-55	maxillare	"43.486656, 20.531561"	2021	Serbia	"Studenica, Ra_ka District, Central Serbia"
+61971	Huso huso	ST-56	ST-56	cranial	"43.486656, 20.531561"	2021	Serbia	"Studenica, Ra_ka District, Central Serbia"
+2582415	Blank sample	EX-BK	EX-BK	control sample	missing: control sample	2022	missing: control sample	missing: control sample
+2582415	Blank sample	LIB-BK	LIB-BK	control sample	missing: control sample	2022	missing: control sample	missing: control sample
