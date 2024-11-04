@@ -102,9 +102,6 @@ dev.off()
 Coverage_data$new <- context_data$Species[match(Coverage_data$SampleID, context_data$SampleID)]
 names(Coverage_data)[names(Coverage_data) == 'new'] <- 'Species'
 
-cov$Depth_cov <- as.numeric(cov$Depth_cov)
-cov$Breadth_cov <- as.numeric(cov$Breadth_cov)
-
 a1.3 <- Coverage_data %>%
   mutate(SampleID = fct_relevel(SampleID,
                                 "PA-01","PA-04","PA-06","PA-11","PA-16","LV-17", "LV-19", "LV-22", "LV-24", "LV-28", "LV-29", "KU-32", "KU-34", "KU-35", "DB-38", "DB-39", "VM-43", "VM-44", "DK-47", "DK-49","DP-52","DP-53", "ST-54","ST-55","ST-56"))%>%
@@ -137,7 +134,7 @@ dev.off()
 output_metadmg <- read_csv("/path/to/final_output_metadmg.csv")
 df1 <- output_metadmg
 
-context_metadata <- read.csv ("/path/to/metadata.csv", sep = ",") #TO ADD GITHUB!!!!
+context_metadata <- read.csv ("/path/to/metadata.csv", sep = ",")
 
 ###Merge context_data and depth_data with dataframe(adding new column)
 df1$new <-context_metadata$Site[match(df1$sample, context_metadata$SampleID)]
@@ -206,16 +203,19 @@ dev.off()
 output_metadmg_filtered <- output_metadmg_short %>% filter(N_reads > 100, grepl("Mesolithic", Period) | grepl("Neolithic", Period))
 
 ###plot
-a2.2 <- ggplot(output_metadmg_filtered, aes(x=D_max, y=sample, colour=Site)) + geom_errorbar(aes(xmin=D_max-D_max_std, xmax=D_max+D_max_std, colour=Site, group=Site), position=pd) +
-  geom_point(size = 2.2, position=pd)+
-  scale_colour_manual(values =c("#CD5B45", "#EEB422", "#458B00", "#53868B", "#7AC5CD", "#104E8B", "#68228B", "#EEA2AD")) + 
-  theme_minimal()+
-  theme(legend.position = "none")
+a2.2 <- ggplot(output_metadmg_filtered, aes(x=D_max, y=sample, colour=Site))+ 
+geom_errorbar(aes(xmin=D_max-D_max_std, xmax=D_max+D_max_std, colour=Site, group=Site), position=pd)+
+geom_point(size = 2.2, position=pd)+
+scale_colour_manual(values =c("#CD5B45", "#EEB422", "#458B00", "#53868B", "#7AC5CD", "#104E8B", "#68228B", "#EEA2AD"))+ 
+theme_minimal()+
+theme(legend.position = "none")
 a2.2
 
-b2.2 <- ggplot(output_metadmg_filtered, aes(x=mean_L, y=sample, colour=Site)) + geom_errorbar(aes(xmin=mean_L-std_L, xmax=mean_L+std_L, colour=Site, group=Site), position=pd) +
-  geom_point(size = 2.2, position=pd)+ 
-  scale_colour_manual(values =c("#CD5B45", "#EEB422", "#458B00", "#53868B", "#7AC5CD", "#104E8B", "#68228B", "#EEA2AD")) + theme_minimal()
+b2.2 <- ggplot(output_metadmg_filtered, aes(x=mean_L, y=sample, colour=Site))+ 
+geom_errorbar(aes(xmin=mean_L-std_L, xmax=mean_L+std_L, colour=Site, group=Site), position=pd)+
+geom_point(size = 2.2, position=pd)+ 
+scale_colour_manual(values =c("#CD5B45", "#EEB422", "#458B00", "#53868B", "#7AC5CD", "#104E8B", "#68228B", "#EEA2AD")) +
+theme_minimal()
 b2.2
 
 pdf(file="FigureS2.2.pdf", width = 12, height = 8)
@@ -223,6 +223,5 @@ grid.arrange(a2.2, b2.2,
              ncol = 2, nrow = 1)
 dev.off()
 
-###########
 
 
