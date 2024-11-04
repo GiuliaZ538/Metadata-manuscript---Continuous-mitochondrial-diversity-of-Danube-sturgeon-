@@ -26,5 +26,8 @@ config_file: config.yaml
 damage_mode: global
 version: 0.24.7
 
+##Computing damage patterns
+metaDMG compute
+
 ##Generate final output
 metaDMG convert --output /path/to/final_output.csv --results /path/to/results_folder/results
